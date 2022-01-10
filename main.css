@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+
+body {
+    background-color: #ded6cf;
+}
+
+
+#header_layout {
+    background-color: #f2c2bc;
+    text-align: center;
+    height: 100px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+    
+#header a {
+    text-decoration: none;
+    color: #ebd6d9;
+}
+
+#main_photo_layout{
+    background-color: #e48a89;
+}
+
+main_photo1 {
+    height: 300px;
+    
+}
+
+main_photo2 {
+    height: 300px;
+}
