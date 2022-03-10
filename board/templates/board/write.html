@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<form action="{% url 'board:create' %}" method="POST">
+  {% csrf_token %}
+
+  <div>
+    제목: <input name='title' type="text">
+  </div>
+  <div>
+    내용: <textarea name="content" cols="30" rows="10"></textarea>
+  </div>
+  <div>
+    <button>작성</button>
+  </div>
+
+</form>
+
+{% endblock content %}
+
